@@ -105,6 +105,9 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://django-blog-rrx5.onrender.com",
+]
 
 # Internationalization
 # https://docs.djangoproject.com/en/6.0/topics/i18n/
